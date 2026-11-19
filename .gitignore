@@ -1,0 +1,25 @@
+#helyi kornyezet
+.env
+.env.*
+!.env.example
+
+#fuggosegek
+backend/vendor/
+frontend/node_modules/
+
+#build kimenet
+frontend/dist/
+
+#laravel futas kozbeni fajlok
+backend/storage/*.key
+backend/storage/logs/*.log
+backend/bootstrap/cache/*.php
+backend/public/hot
+backend/public/storage
+
+#vsc filejai
+.idea/
+.vscode/
+.DS_Store
+thumbs.db
+*.log
