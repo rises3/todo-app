@@ -1,0 +1,22 @@
+
+|   .gitattributes
+|   .gitignore
+|   docker-compose.yml
+|   mappak2
+|   
++---backend
++---docker
+|   +---backend
+|   |       Dockerfile
+|   |       
+|   +---frontend
+|   |       Dockerfile
+|   |       
+|   \---mysql
+|           init.sql
+|           
++---docs
+|       1_mappa_es_git_elokeszites.md
+|       2_docker_env.md
+|       
+\---frontend
